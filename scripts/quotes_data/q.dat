@@ -1,0 +1,376 @@
+--[[
+		Famous and Inspiring quote script by Colin J.D. Stewart
+		Compatability: Nemesis DC Hub
+]]
+
+quotes = {
+	--// Without names
+	["Ancient Indian Proverb"] = {text = {"Certain things catch your eye, but pursue only those that capture the heart."}},
+	["Chinese Proverb"] = {
+		text = {
+			"The best time to plant a tree was 20 years ago. The second best time is now.",
+			"The person who says it cannot be done should not interrupt the person who is doing it."
+		}
+	},
+	["Latin Proverb"] = {text = {"If the wind will not serve, take to the oars."}},
+	["Japanese Proverb"] = {text = {"Fall seven times and stand up eight."}},
+	["Unknown"] = {
+		text = {
+			"You can't fall if you don't climb.  But there's no joy in living your whole life on the ground.",
+			"A truly rich man is one whose children run into his arms when his hands are empty."
+		}
+	},
+
+	--// A
+	["Al Capone"] = {
+		text = {
+			"Capitalism is the legitimate racket of the ruling class.",
+			"You can get much farther with a kind word and a gun than you can with a kind word alone.",
+			"When I sell liquor, it's called bootlegging; when my patrons serve it on Lake Shore Drive, it's called hospitality.",
+			"Don't mistake my kindness for weakness. I am kind to everyone, but when someone is unkind to me, weak is not what you're going to remember about me.",
+		},
+	},
+	["Ayn Rand"] = {
+		birthname = "Alisa Zinov'yevna Rosenbaum",
+		occupation = "Novelist, philosopher, playwright, and screenwriter",
+		gender = "Female",
+		born = "02.02.1905",
+		died = "06.03.1982",
+		
+		text = {
+			"The question isn't who is going to let me; it's who is going to stop me.",
+			"A creative man is motivated by the desire to achieve, not by the desire to beat others.",
+			"The smallest minority on earth is the individual. Those who deny individual rights cannot claim to be defenders of minorities.",
+			"To say 'I love you' one must first be able to say the 'I.'",
+			"The purpose of morality is to teach you, not to suffer and die, but to enjoy yourself and live.",
+			"Contradictions do not exist. Whenever you think you are facing a contradiction, check your premises. You will find that one of them is wrong.",
+			"Wealth is the product of man's capacity to think.",
+			"The truth is not for all men, but only for those who seek it.",
+			"There are two sides to every issue: one side is right and the other is wrong, but the middle is always evil.",
+		},
+	},
+	["Anais Nin"] = {text = {"Life shrinks or expands in proportion to one's courage."}},
+	["Anne Frank"] = {text = {"How wonderful it is that nobody need wait a single moment before starting to improve the world."}},
+	["Ann Landers"] = {text = {"It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings."}},
+	["Arthur Ashe"] = {text = {"Start where you are. Use what you have.  Do what you can."}},
+	["Alice Walker"] = {text = {"The most common way people give up their power is by thinking they don't have any."}},
+	["Audrey Hepburn"] = {text = {"Nothing is impossible, the word itself says, 'I'm possible!'"}},
+	["Amelia Earhart"] = {text = {"The most difficult thing is the decision to act, the rest is merely tenacity."}},
+	["Abraham Lincoln"] = {text = {"It's not the years in your life that count. It's the life in your years."}},
+	["Abigail Van Buren"] = {text = {"If you want your children to turn out well, spend twice as much time with them, and half as much money."}},
+
+	["Aristotle"] = {
+		birthname = "Aristotle",
+		occupation = "Philosopher and scientist",
+		gender = "Male",
+		born = "384 BC",
+		died = "322 BC",
+
+		text = {
+			"First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end.",
+			"There is only one way to avoid criticism: do nothing, say nothing, and be nothing."
+		}
+	},
+
+	["Albert Einstein"] = {
+		birthname = "Albert Einstein",
+		occupation = "Theoretical physicist",
+		gender = "Male",
+		born = "14.03.1879",
+		died = "18.04.1955",
+
+		text = {
+			"Strive not to be a success, but rather to be of value",
+			"A person who never made a mistake never tried anything new.",
+			"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+			"Science without religion is lame, religion without science is blind.",
+			"Reality is merely an illusion, albeit a very persistent one.",
+			"Gravitation cannot be held responsible for people falling in love.",
+			"There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
+			"Peace cannot be kept by force; it can only be achieved by understanding.",
+			"Great spirits have always encountered violent opposition from mediocre minds.",
+			"I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.",
+			"Weakness of attitude becomes weakness of character.",
+			"The secret to creativity is knowing how to hide your sources.",
+			"You have to learn the rules of the game. And then you have to play better than anyone else.",
+		}
+	},
+
+	--// B
+	["Babe Ruth"] = {text = {"Every strike brings me closer to the next home run."}},
+	["Beverly Sills"] = {text = {"You may be disappointed if you fail, but you are doomed if you don't try."}},
+	["Bob Dylan"] = {text = {"What's money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do."}},
+	["Benjamin Franklin"] = {
+		text = {
+			"I didn't fail the test. I just found 100 ways to do it wrong.",
+			"Either write something worth reading or do something worth writing."
+		}
+	},
+	["Bill Cosby"] = {text = {"In order to succeed, your desire for success should be greater than your fear of failure."}},
+	["Buddha"] = {text = {"The mind is everything. What you think you become."}},
+	["Booker T. Washington"] = {
+		text = {
+			"If you want to lift yourself up, lift up someone else.",
+			"Few things can help an individual more than to place responsibility on him, and to let him know that you trust him."	
+		}
+	},
+	["Bruce Lee"] = {
+		text = {
+			"The successful warrior is the average man, with laser-like focus.",
+			"Mistakes are always forgivable, if one has the courage to admit them.",
+			"To hell with circumstances; I create opportunities.",
+			"A wise man can learn more from a foolish question than a fool can learn from a wise answer.",
+			"A goal is not always meant to be reached, it often serves simply as something to aim at.",
+			"If you spend too much time thinking about a thing, you'll never get it done.",
+			"Notice that the stiffest tree is most easily cracked, while the bamboo or willow survives by bending with the wind.",
+			"Always be yourself, express yourself, have faith in yourself, do not go out and look for a successfull personality and duplicate it.",
+			"The key to immortality is first living a life worth remembering.",
+			"Adapt what is useful, reject what is useless, and add what is specifically your own.",
+			"If you love life, don't waste time, for time is what life is made up of.",
+		}
+	},
+
+	["Bill Gates"] = {
+		text = {
+			"Your most unhappy customers are your greatest source of learning.",
+			"Success is a lousy teacher. It seduces smart people into thinking they can't lose.",
+			"As we look ahead into the next century, leaders will be those who empower others.",
+			"If you can't make it good, at least make it look good.",
+			"I really had a lot of dreams when I was a kid, and I think a great deal of that grew out of the fact that I had a chance to read a lot.",
+			"Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important.",
+			"I believe that if you show people the problems and you show them the solutions they will be moved to act.",
+			"The Internet is becoming the town square for the global village of tomorrow.",
+			"Intellectual property has the shelf life of a banana.",
+			"Television is not real life. In real life people actually have to leave the coffee shop and go to jobs.",
+		}
+	},
+
+	--// C
+	["Charles Swindoll"] = {text = {"Life is 10% what happens to me and 90% of how I react to it."}},
+	["Confucius"] = {
+		text = {
+			"It does not matter how slowly you go as long as you do not stop.",
+			"Everything has beauty, but not everyone can see."
+		}
+	},
+	["Christopher Columbus"] = {text = {"You can never cross the ocean until you have the courage to lose sight of the shore."}},
+
+	--// D
+	["Dalai Lama"] = {
+		text = {
+			"Happiness is not something readymade.  It comes from your own actions.",
+			"Remember that not getting what you want is sometimes a wonderful stroke of luck."
+		}
+	},
+
+	--// E
+	["Earl Nightingale"] = {text = {"We become what we think about."}},
+	["Eleanor Roosevelt"] = {text = {"Remember no one can make you feel inferior without your consent."}},	
+	["Erma Bombeck"] = {text = {"When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me."}},
+	["Erica Jong"] = {text = {"You take your life in your own hands, and what happens? A terrible thing, no one to blame."}},
+
+	--// F
+	["Florence Nightingale"] = {text = {"I attribute my success to this: I never gave or took any excuse."}},
+	["Farrah Gray"] = {text = {"Build your own dreams, or someone else will hire you to build theirs."}},
+	["Frank Sinatra"] = {
+		birthname = "Francis Albert Sinatra",
+		occupation = "Jazz and traditional pop singer, actor, and producer",
+		gender = "Male",
+		born = "12.12.1915",
+		died = "14.05.1998",
+
+		text = {
+			"The best revenge is massive success.",
+			"Alcohol may be man's worst enemy, but the bible says love your enemy.",
+			"Basically, I'm for anything that gets you through the night - be it prayer, tranquilizers or a bottle of Jack Daniels.",
+			"You gotta love livin', baby, 'cause dyin' is a pain in the ass.",
+			"Cock your hat - angles are attitudes.",
+			"I like intelligent women. When you go out, it shouldn't be a staring contest.",
+			"Hell hath no fury like a hustler with a literary agent.",
+			"When lip service to some mysterious deity permits bestiality on Wednesday and absolution on Sunday, cash me out.",
+			"The martial music of every sideburned delinquent on the face of the earth.",
+			"May you live to be 100 and may the last voice you hear be mine."
+		}
+	},
+
+	--// G
+	["Gloria Steinem"] = {text = {"Dreaming, after all, is a form of planning."}},
+	["Grandma Moses"] = {text = {"Life is what we make it, always has been, always will be."}},
+	["George Addair"] = {text = {"Everything you've ever wanted is on the other side of fear."}},
+	["George Eliot"] = {text = {"It is never too late to be what you might have been."}},
+
+	--// H
+	["Henry Ford"] = {
+		text = {
+			"Whether you think you can or you think you can't, you're right.",
+			"When everything seems to be going against you, remember that the airplane takes off against the wind, not with it."
+		}
+	},
+	["Helen Keller"] = {text = {"When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us."}},
+	["Henry David Thoreau"] = {text = {"Go confidently in the direction of your dreams.  Live the life you have imagined."}},
+
+	--// I
+
+	--// J
+	["John Candy"] = {
+		text = {
+			"I know what I have to do if I want to lose weight and stay healthy: eat a proper diet and exercise. All I've got to do is apply it.",
+			"I thought to myself, Join the army. It's free. So I figured while I'm here I'll lose a few pounds.",
+			"You can escape into a character.",
+		},
+	},
+	["John Lennon"] = {
+		text = {
+			"Life is what happens to you while you're busy making other plans.",
+			"When I was 5 years old, my mother always told me that happiness was the key to life.  When I went to school, they asked me what I wanted to be when I grew up.  I wrote down 'happy'.  They told me I didn't understand the assignment, and I told them they didn't understand life."
+		}
+	},
+	["Jim Rohn"] = {text = {"Either you run the day, or the day runs you."}},
+	["Joshua J. Marine"] = {text = {"Challenges are what make life interesting and overcoming them is what makes life meaningful."}},
+	["Jesus"] = {text = {"Ask and it will be given to you; search, and you will find; knock and the door will be opened for you."}},
+	["Johann Wolfgang von Goethe"] = {text = {"Whatever you can do, or dream you can, begin it.  Boldness has genius, power and magic in it."}},
+	["Jamie Paolinetti"] = {text = {"Limitations live only in our minds.  But if we use our imaginations, our possibilities become limitless."}},
+	["Jesse Owens"] = {text = {"The battles that count aren't the ones for gold medals. The struggles within yourself–the invisible battles inside all of us–that's where it's at."}},
+	["J. K Rowling"] = {text = {"It is our choices, that show what we truly are, far more than our abilities."}},
+
+	--// K
+	["Kevin Kruse"] = {
+		text = {
+			"Life is about making an impact, not making an income.",
+			"Life isn't about getting and having, it's about giving and being."
+		}
+	},
+
+	--// L
+	["Leonardo da Vinci"] = {text = {"I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do."}},
+	["Les Brown"] = {text = {"Too many of us are not living our dreams because we are living our fears."}},
+	["Lao Tzu"] = {text = {"When I let go of what I am, I become what I might be."}},
+
+	--// M
+	["Michael Jordan"] = {text = {"I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed."}},
+	["Maya Angelou"] = {
+		text = {
+			"I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+			"You can't use up creativity.  The more you use, the more you have.",
+			"Life is not measured by the number of breaths we take, but by the moments that take our breath away."
+		}
+	},
+	["Maimonides"] = {text = {"Teach thy tongue to say, “I do not know,” and thous shalt progress."}},
+	["Marie Curie"] = {text = {"We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained."}},
+	["Martin Luther King Jr."] = {text = {"Our lives begin to end the day we become silent about things that matter."}},
+	["Mae Jemison"] = {text = {"It's your place in the world; it's your life. Go on and do all you can with it, and make it the life you want to live."}},
+	["Mark Twain"] = {
+		birthname = "Samuel Langhorne Clemens",
+		occupation = "Author and lecturer",
+		gender = "Male",
+		born = "30.11.1835",
+		died = "21.04.1910",
+
+		text = {
+			"Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover.",
+			"The two most important days in your life are the day you are born and the day you find out why."
+		}
+	},
+
+	--// N
+	["Napoleon Hill"] = {text = {"Whatever the mind of man can conceive and believe, it can achieve."}},
+	["Norman Vincent Peale"] = {text = {"Change your thoughts and you change your world."}},
+	["Norman Vaughan"] = {text = {"Dream big and dare to fail."}},
+	["Nikos Kazantzakis"] = {text = {"In order to succeed, we must first believe that we can."}},
+
+	--// O
+	["Oprah Winfrey"] = {
+		text = {
+			"You become what you believe.",
+			"If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough."
+		}
+	},
+	["Og Mandino"] = {text={"Failure will never overtake me if my determination to succeed is strong enough."}},
+
+	--// P	
+	["Pablo Picasso"] = {text = {"Every child is an artist.  The problem is how to remain an artist once he grows up."}},
+	["Plato"] = {text = {"We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light."}},
+	["Paul Walker"] = {
+		birthname = "Paul William Walker IV",
+		occupation = "Actor",
+		gender = "Male",
+		born = "12.09.1973",
+		died = "30.11.2013",
+
+		text = {
+			"You know, all that really matters is that the people you love are happy and healthy. Everything else is just sprinkles on the sundae.",
+			"My philosophy is: If you can't have fun, there's no sense in doing it.",
+			"If you spend any time with a man, you'll realize that we're all still little boys.",
+			"If I lost weight, I'd be two-dimensional!",
+		}
+	},
+	["Pablo Escobar"] = {
+		text = {
+			"I prefer to be in a grave in Colombia than in a jail cell in the United States.",
+			"In modern business it is not the crook who is to be feared most, it is the honest man who doesn’t know what he is doing",
+			"There are two hundred million idiots, manipulated by a million intelligent men.",
+			"There can only be one king.",
+			"Everyone has a price, the important thing is to find out what it is.",
+			"I can replace things, but I could never replace my wife and kids.",
+		},
+	},
+
+	--// Q
+
+	--// R	
+	["Robert Frost"] = {text = {"Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference."}},
+	["Rosa Parks"] = {text = {"I have learned over the years that when one's mind is made up, this diminishes fear."}},
+	["Roger Staubach"] = {text = {"There are no traffic jams along the extra mile."}},
+	["Ralph Waldo Emerson"] = {text = {"The only person you are destined to become is the person you decide to be."}},
+	["Ralph Marston"] = {text = {"What you do today can improve all your tomorrows."}},
+
+
+	--// S
+	["Socrates"] = {text = {"An unexamined life is not worth living."}},
+	["Steve Jobs"] = {
+		text = {		
+			"Your time is limited, so don't waste it living someone else's life.",
+			"The only way to do great work is to love what you do."
+		}
+	},
+	["Stephen Covey"] = {text = {"I am not a product of my circumstances. I am a product of my decisions."}},
+	["Sheryl Sandberg"] = {text = {"If you're offered a seat on a rocket ship, don't ask what seat! Just get on."}},
+	["Sir Claus Moser"] = {text = {"Education costs money.  But then so does ignorance."}},
+
+	--// T	
+	["Theodore Roosevelt"] = {text = {"Believe you can and you're halfway there."}},
+	["Teddy Roosevelt"] = {text = {"Do what you can, where you are, with what you have."}},
+	["Tony Robbins"] = {text = {"If you do what you've always done, you'll get what you've always gotten."}},
+
+	--// U
+
+	--// V
+	["Vince Lombardi"] = {text = {"Winning isn't everything, but wanting to win is."}},
+	["Vincent van Gogh"] = {
+		text = {
+			"If you hear a voice within you say 'you cannot paint,' then by all means paint and that voice will be silenced.",
+			"I would rather die of passion than of boredom.",
+		}
+	},
+
+
+	--// W
+
+	["Woody Allen"] = {text = {"Eighty percent of success is showing up."}},
+	["Wayne Gretzky"] = {text = {"You miss 100% of the shots you don't take."}},
+	["W. Clement Stone"] = {text = {"Definiteness of purpose is the starting point of all achievement."}},
+	["Will Rogers"] = {text = {"The quickest way to double your money is to fold it over and put it back in your pocket."}},
+	["Winston Churchill"] = {text = {"Courage is the first of human qualities because it is the quality which guarantees all others."}},
+
+	--// X
+
+	--// Y
+
+	--// Z
+	["Zig Ziglar"] = {
+		text = {
+			"People often say that motivation doesn't last. Well, neither does bathing.  That's why we recommend it daily.",
+			"If you can dream it, you can achieve it."
+		}
+	},
+}
